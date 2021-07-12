@@ -1,9 +1,9 @@
 const { fetchJson } = require('../module/util');
 
-let wikipedia = {
-    name: 'wikipedia',
+let brainly = {
+    name: 'brainly',
     status: false,
-    clue: ['Fungsi: Wikipedia online', 'Format:\n<code>\n .wiki kata\n .wikipedia kata</code>'],
+    clue: ['Fungsi: Brainly', 'Format:\n<code>\n .brain kata\n .wikipedia kata</code>'],
     regex: /^[!\/\.]brain(?:ly) (.+)$/i,
     run: function (tg, update) {
         let message = update.message
