@@ -27,7 +27,7 @@ module.exports = {
 
   admin:
   {
-    active: true, // <-- aktifkan jika ingin membatasi bot dipergunakan oleg admin saja
+    active: false, // <-- aktifkan jika ingin membatasi bot dipergunakan oleg admin saja
 
     // jika skipme false, dan admin true.. id bot harus dimasukkan di sini. 
     // Amannya sih masukkan saja, kawatir berubah pikiran trus lupa ngisinya
